@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style type="text/css">
+		input[type="text"] {
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 1.4rem;
+			padding: 0.9rem 1rem;
+			line-height: 1;
+			height: 40px;
+			outline: none;
+			background: #ffffff;
+			border: 1px solid #dfdfdf;
+			border-radius: 2px;
+			margin-bottom: 0;
+			color: rgba(0, 0, 0, 0.85);
+			-webkit-appearance: none;
+		}
+		.btn,
+		button {
+			display: inline-block;
+			vertical-align: top;
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 1.4rem;
+			font-weight: normal;
+			white-space: nowrap;
+			padding: 0 32px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			text-decoration: none;
+			-webkit-appearance: none;
+			outline: none;
+			margin: 0;
+			border: none;
+			border-radius: 2px;
+			box-shadow: none;
+			cursor: pointer;
+			color: #000000;
+			background: #e5e5e5;
+		}
+		.btn:hover,
+		button:hover {
+			background-color: #ededed;
+			color: rgba(0, 0, 0, 0.6);
+			text-decoration: none;
+		}
+		.btn[outline],
+		button[outline] {
+			padding: 0 31px;
+			background: none;
+			border: 1px solid rgba(0, 0, 0, 0.25);
+			color: rgba(0, 0, 0, 0.6);
+		}
+		.btn[type="black"],
+		button[type="black"] {
+			color: rgba(255, 255, 255, 0.9);
+			background: #000000;
+		}
+		.btn[type="black"]:hover,
+		button[type="black"]:hover {
+			color: rgba(255, 255, 255, 0.7);
+			background-color: #333333;
+		}
+		.btn[type="black"][disabled]:hover,
+		button[type="black"][disabled]:hover {
+			color: rgba(255, 255, 255, 0.9);
+			background: #000000;
+		}
+		.btn[type="black"][outline],
+		button[type="black"][outline] {
+			background: none;
+			color: #000000;
+			border-color: #000000;
+		}
+		.btn[type="black"][outline]:hover,
+		button[type="black"][outline]:hover {
+			background: #000000;
+			border-color: #000000;
+			color: rgba(255, 255, 255, 0.9);
+		}
+		.btn[type="black"][outline][disabled]:hover,
+		button[type="black"][outline][disabled]:hover {
+			background: none;
+			border-color: #000000;
+			color: #000000;
+		}
+		.clr{
+			width: 48px;
+			height: 48px;
+		}
+	</style>
+</head>
+<body style="width:280px;padding:10px;">
+	<label>Instagram Theme:</label>
+	<br><br>
+	<button type="white" class="button outline" style="margin: auto;" id="lightBtn">Light theme</button>
+	<button type="black" class="button outline" style="margin: auto;" id="blackBtn">Dark theme</button>
+	<br><br>
+	<label>Nav bar color</label>
+	<br><br>
+	<button class="clr" style="margin: auto;background-color:#f1c40f;" ></button>
+	<button class="clr" style="margin: auto;background-color:#2ecc71;" ></button>
+	<button class="clr" style="margin: auto;background-color:#e67e22;" ></button>
+	<button class="clr" style="margin: auto;background-color:#3498db;" ></button>
+	<br><br>
+	<button class="clr" style="margin: auto;background-color:#e74c3c;" ></button>
+	<button class="clr" style="margin: auto;background-color:#a66bbe;" ></button>
+	<button class="clr" style="margin: auto;background-color:#ecf0f1;" ></button>
+	<button class="clr" style="margin: auto;background-color:#444444;" ></button>
+	<br><br>
+	<label>* You need to reload the page to see changes</label>
+	<br><br>
+	<a href="http://shahriar.in" target="_blank">About & developer site</a>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="pop.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+main{
+    background-color: #111 !important;
+}
+nav{
+    border:none !important;
+}
+article{
+    background-color: #252525 !important;
+    border-color: #444 !important;
+}
+article *:not(a){
+    color:white !important;
+}
+._t1y9a._98hun{
+    background:#222 !important; 
+    border:none !important;
+}
+a, a:visited{
+	color: #3897f0 !important;
+}
+._e0mru._osk57{
+    border:none !important;
+}
+footer, footer nav{
+    background-color: #262626 !important;
+}
+._fqv9h{
+    background-color: #444 !important;
+    border: 1px solid #444 !important;
+}
+/*width<720*/
+@media (max-width:720px){
+    a._1b8in._soakw.coreSpriteDesktopNavLogoAndWordmark{
+        width: 52px !important;
+    }
+}

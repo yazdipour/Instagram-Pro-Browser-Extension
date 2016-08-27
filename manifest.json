@@ -1,0 +1,43 @@
+{
+	"name": "Instagram Pro",
+	"description": "Unoffical extension that helps you have fun with Instagram",
+   "homepage_url": "http://shahriar.in",
+	"author" : "Shahriar Yazdipour",
+	"version": "2.1",
+	"manifest_version": 2,
+	"page_action": {
+		"default_title": "Instagram Pro",
+		"default_icon": {
+			"38":"assets/38.png"
+		},
+		"default_popup": "pop.html"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"https://www.instagram.com/*",
+				"http://www.instagram.com/*"
+			],
+			"js" : [
+				"jquery.js",
+				"myscript.js"
+			],
+			"run_at": "document_idle"
+		}
+	],
+	"icons": {
+		"16":  "assets/16.png",
+		"32":  "assets/32.png",
+		"128": "assets/icon.png"
+	},
+	"permissions":[
+		"activeTab",
+		"storage",
+		"https://instagram.com/*",
+		"http://instagram.com/*"
+	],
+	"web_accessible_resources": [
+		"jquery.js",
+		"mystyles.css"
+	]
+}  
